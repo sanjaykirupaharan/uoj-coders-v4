@@ -1,0 +1,14 @@
+{
+  "name": "UoJ Coders V3.0 - 2024",
+  "short_name": "UoJ Coders",
+  "description": "The official website of the University of Jaffna Coders Community",
+  "start_url": "/compsoc/uojcoders/v3",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/public/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
