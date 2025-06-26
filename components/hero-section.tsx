@@ -1,16 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { BackgroundBeams } from "./ui/background-beams";
-import { BoxesCore } from "./ui/background-lines";
-import { BackgroundGradientAnimation } from "./ui/background-gradient-animation";
 import { Vortex } from "./ui/background-vortex";
 
 type Props = {};
 export const HeroSection = ({ }: Props) => {
   return (
     <div className="h-[30rem] lg:h-screen w-full bg-black relative flex flex-col items-center justify-center antialiased overflow-hidden">
-      {/* <BackgroundGradientAnimation className="z-10" /> */}
+
       <Vortex
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
@@ -23,8 +20,7 @@ export const HeroSection = ({ }: Props) => {
           className="w-80 lg:w-96 z-40"
           />
       </Vortex>  
-      {/* <BoxesCore className="z-10" /> */}
-      {/* <BackgroundBeams /> */}
+
       <Image
         width={1600}
         height={400}
