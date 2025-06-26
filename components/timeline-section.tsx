@@ -1,18 +1,11 @@
 "use client";
 
 import React from "react";
-import {
-  UserPen,
-  UserRoundX,
-  UserRoundMinus,
-  Rocket,
-  Trophy,
-} from "lucide-react";
 import { Timeline } from "./ui/timeline";
 
 export function TimelineSection() {
   return (
-    <div className="bg-neutral-950 w-full py-10 content-center" id="timeline">
+    <div className="bg-[#101221] w-full py-10 content-center" id="timeline">
       <h1 className="font-varino text-xl lg:text-4xl text-center font-bold text-white mb-16 uppercase tracking-widest">
         Timeline
       </h1>

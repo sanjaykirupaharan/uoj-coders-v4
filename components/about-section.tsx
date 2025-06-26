@@ -25,7 +25,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({ link, title }) => {
 
 export function AboutSection() {
   return (
-    <div id="about">
+    <div id="about" className="bg-[#101221]">
       <ContainerScroll
         titleComponent={
           <>

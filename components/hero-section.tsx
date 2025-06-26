@@ -9,7 +9,7 @@ export const HeroSection = ({ }: Props) => {
     <div className="h-[30rem] lg:h-screen w-full relative flex flex-col items-center justify-center antialiased overflow-hidden">
 
       <Vortex
-        backgroundColor="zinc"
+        backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
         <Image
