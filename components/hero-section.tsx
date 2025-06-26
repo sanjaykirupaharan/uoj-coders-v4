@@ -10,15 +10,19 @@ type Props = {};
 export const HeroSection = ({ }: Props) => {
   return (
     <div className="h-[30rem] lg:h-screen w-full bg-black relative flex flex-col items-center justify-center antialiased overflow-hidden">
-      <Image
-        width={600}
-        height={600}
-        src={"/uoj-coders-v4-with-moon-bg-rem.png"}
-        alt="logo"
-        className="w-80 lg:w-96 z-40"
-        />
       {/* <BackgroundGradientAnimation className="z-10" /> */}
-      {/* <Vortex className="z-10" /> */}
+      <Vortex
+        backgroundColor="black"
+        className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
+        >
+        <Image
+          width={600}
+          height={600}
+          src={"/uoj-coders-v4-with-moon-bg-rem.png"}
+          alt="logo"
+          className="w-80 lg:w-96 z-40"
+          />
+      </Vortex>  
       {/* <BoxesCore className="z-10" /> */}
       {/* <BackgroundBeams /> */}
       <Image
