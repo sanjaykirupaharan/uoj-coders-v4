@@ -2,7 +2,6 @@
   "name": "uoj_coders",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://society.jfn.ac.lk/compsoc/uojcoders/v3",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
