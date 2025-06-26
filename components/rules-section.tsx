@@ -14,7 +14,7 @@ const RulesSection = () => {
         <li>A team can have up to 3 members.</li>
         <Separator className="bg-zinc-600" />
         <li>
-          The elimination round will be held online on September 26th, 2025,
+          The elimination round will be held online on August 23rd, 2025,
           with an introduction from 6:30 PM to 7:00 PM and the competition from
           7:00 PM to 8:00 PM.
         </li>

@@ -21,7 +21,7 @@ export const EventDateTimeSection = ({ }: Props) => {
         <div className="flex items-center gap-x-7 flex-col lg:flex-row text-center lg:text-left gap-y-3 lg:gap-y-0 ">
           <CalendarFold size={40} className="text-sm" />
           <span className="font-normal text-sm lg:text-lg 2xl:text-xl lg:font-normal tracking-wider">
-            October 12th, 2025.
+            August 23rd, 2025.
           </span>
         </div>
         <div className="flex items-center gap-x-7 flex-col lg:flex-row text-center lg:text-left gap-y-3 lg:gap-y-0 ">

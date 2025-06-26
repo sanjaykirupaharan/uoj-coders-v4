@@ -12,7 +12,7 @@ import { Timeline } from "./ui/timeline";
 
 export function TimelineSection() {
   return (
-    <div className="bg-neutral-950 w-full py-10" id="timeline">
+    <div className="bg-neutral-950 w-full py-10 content-center" id="timeline">
       <h1 className="font-varino text-xl lg:text-4xl text-center font-bold text-white mb-16 uppercase tracking-widest">
         Timeline
       </h1>
@@ -25,7 +25,7 @@ export function TimelineSection() {
 
 const timelineSteps = [
   {
-    title: "September 09, 2025",
+    title: "July 02, 2025",
     content: (
       <div className="w-64 lg:w-96 my-2 flex flex-col gap-y-1 items-start justify-start pb-20">
         <h2 className="text-white text-lg lg:text-xl font-semibold w-fit tracking-wider">
@@ -38,7 +38,7 @@ const timelineSteps = [
     ),
   },
   {
-    title: "September 23, 2025",
+    title: "July 27, 2025",
     content: (
       <div className="w-64 lg:w-96 my-2 flex flex-col gap-y-1 items-start justify-start pb-20">
         <h2 className="text-white text-lg lg:text-xl font-semibold w-fit tracking-wider">
@@ -51,7 +51,7 @@ const timelineSteps = [
     ),
   },
   {
-    title: "September 26, 2025",
+    title: "July 30, 2025",
     content: (
       <div className="w-64 lg:w-96 my-2 flex flex-col gap-y-1 items-start justify-start pb-20">
         <h2 className="text-white text-lg lg:text-xl font-semibold w-fit tracking-wider">
@@ -64,7 +64,7 @@ const timelineSteps = [
     ),
   },
   {
-    title: "October 12, 2025",
+    title: "August 23, 2025",
     content: (
       <div className="w-64 lg:w-96 my-2 flex flex-col gap-y-1 items-start justify-start pb-20">
         <h2 className="text-white text-lg lg:text-xl font-semibold w-fit tracking-wider">
@@ -77,7 +77,7 @@ const timelineSteps = [
     ),
   },
   {
-    title: "October 13, 2025",
+    title: "August 24, 2025",
     content: (
       <div className="w-64 lg:w-96 my-2 flex flex-col gap-y-1 items-start justify-start pb-20">
         <h2 className="text-white text-lg lg:text-xl font-semibold w-fit tracking-wider">
