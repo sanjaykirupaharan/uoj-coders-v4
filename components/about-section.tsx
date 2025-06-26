@@ -49,14 +49,7 @@ export function AboutSection() {
               ease: "easeInOut",
             }}
             className="py-4 text-white text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
-            UoJCoders v4.0, organized by the Computer Society (CompSoc) and the
-            Department of Computer Science at the University of Jaffna, aims to
-            enhance the problem-solving and programming skills among
-            undergraduate students in computing, fostering the development of
-            efficient programmers. This 12-hour inter-university coding
-            competition, inspired by IEEEXtreme, is open to all undergraduate
-            students in Sri Lanka, especially those pursuing degrees in
-            computing disciplines.
+            UoJCoders v4.0 is a 12-hour coding inter-university  competition. It's organized by the Computer Society and the Department of Computer Science at the University of Jaffna. The goal is to help students improve their coding and problem-solving skills, especially those studying computing. The event, inspired by IEEEXtreme, is open to all undergraduate students in Sri Lanka.
           </motion.p>
           <motion.p
             initial={{ opacity: 0.5, y: 100 }}
@@ -67,14 +60,12 @@ export function AboutSection() {
               ease: "easeInOut",
             }}
             className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
-            The competition is set to take place on October 12th and 13th, 2025,
-            at the Department of Computer Science, University of Jaffna. The 12-hour coding marathon will be conducted online using the <LinkButton link={"http://moodle.org/"} title={"Moodle"} /> platform enhanced with the  <LinkButton link={"https://vpl.dis.ulpgc.es/"} title={"Virtual Programming Lab (VPL) plug-in"} /> and
-            <LinkButton link={"https://vpl.dis.ulpgc.es/documentation/vpl-jail-system-3.0.1/"} title={"a separate Jail system"} />
-            . The Jail system enables isolated, secure coding sessions for each participant.
-            The participants are expected to be present at the competition venue.
-            Participants are encouraged to solve problems utilizing appropriate data
-            structures and algorithms, with questions predominantly related to
-            real-world problems.
+            The UoJCoders v4.0 competition is planned to be held on on August 23th and 24th, 2025, at the
+            Department of Computer Science, University of Jaffna. It’s a 12-hour online coding challenge run
+            through the <LinkButton link={"http://moodle.org/"} title={"Moodle"} /> , which uses a special tool called   <LinkButton link={"https://vpl.dis.ulpgc.es/"} title={"Virtual Programming Lab (VPL) plug-in"} /> plug-in
+            along with a <LinkButton link={"https://vpl.dis.ulpgc.es/documentation/vpl-jail-system-3.0.1/"} title={"a separate Jail system"} />.  This setup makes sure each participant works in a safe and private coding space. Even though the contest is online, participants must be physically present at the venue.
+            The problems will focus on real-life situations, and students are encouraged to use the right data
+            structures and algorithms to solve them. 
           </motion.p>
           <motion.p
             initial={{ opacity: 0.5, y: 100 }}
@@ -85,13 +76,8 @@ export function AboutSection() {
               ease: "easeInOut",
             }}
             className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
-            Participation in UoJCoders v4.0 will significantly improve
-            students&apos; problem-solving, coding, and teamwork skills. Given
-            the rapid nature of the competition, it will also enhance
-            participants&apos; efficiency and time management abilities.
-            UoJCoders v1.0, held on the 16th and 17th of March 2019, saw over
-            200 teams in the elimination round, with 25 teams advancing to the
-            finals.
+            UoJCoders v1.0 was held on March 16th and 17th, 2019. Over 200 teams joined the elimination round,
+            and 25 teams made it to the finals.
           </motion.p>
           <motion.p
             initial={{ opacity: 0.5, y: 100 }}
@@ -102,11 +88,20 @@ export function AboutSection() {
               ease: "easeInOut",
             }}
             className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
-            Although UoJCoders v2.0 was announced for the 4th and 5th of April
-            2020, it could not be conducted due to the COVID-19 pandemic. We are
-            excited to resume the competition with UoJCoders v4.0 and look
-            forward to a vibrant and competitive event that continues the legacy
-            of its predecessors.
+            UoJCoders v2.0 was planned for April 4th and 5th, 2020, but it was canceled because of the COVID-19
+            pandemic.
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0.5, y: 100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{
+              delay: 0.3,
+              duration: 0.8,
+              ease: "easeInOut",
+            }}
+            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
+            UoJCoders v3.0 took place on October 12th and 13th, 2025. More than 100 teams joined the
+            elimination round, and 22 teams were selected for the finals. 
           </motion.p>
         </div>
       </LampContainer>

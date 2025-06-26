@@ -15,7 +15,7 @@ export const HeroSection = ({ }: Props) => {
         height={600}
         src={"/uoj-coders-v4-with-moon-bg-rem.png"}
         alt="logo"
-        className="w-80 lg:w-96 z-50"
+        className="w-80 lg:w-96 z-40"
         />
       {/* <BackgroundGradientAnimation className="z-10" /> */}
       {/* <Vortex className="z-10" /> */}
