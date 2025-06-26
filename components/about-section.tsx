@@ -36,7 +36,7 @@ export function AboutSection() {
         }
       >
         <div className="py-4 text-white text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
-          UoJCoders v4.0 is a 12-hour coding inter-university  competition. It's organized by the Computer Society and the Department of Computer Science at the University of Jaffna. The goal is to help students improve their coding and problem-solving skills, especially those studying computing. The event, inspired by IEEEXtreme, is open to all undergraduate students in Sri Lanka.
+          UoJCoders v4.0 is a 12-hour coding inter-university  competition. It&apos;s organized by the Computer Society and the Department of Computer Science at the University of Jaffna. The goal is to help students improve their coding and problem-solving skills, especially those studying computing. The event, inspired by IEEEXtreme, is open to all undergraduate students in Sri Lanka.
         </div>
 
         <div className="py-4 text-white text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
