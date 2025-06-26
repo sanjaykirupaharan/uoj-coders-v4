@@ -48,7 +48,7 @@ export function AboutSection() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="py-4 text-white text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
+            className="py-4 text-white text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
             UoJCoders v4.0 is a 12-hour coding inter-university  competition. It's organized by the Computer Society and the Department of Computer Science at the University of Jaffna. The goal is to help students improve their coding and problem-solving skills, especially those studying computing. The event, inspired by IEEEXtreme, is open to all undergraduate students in Sri Lanka.
           </motion.p>
           <motion.p
@@ -59,7 +59,7 @@ export function AboutSection() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
+            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
             The UoJCoders v4.0 competition is planned to be held on on August 23th and 24th, 2025, at the
             Department of Computer Science, University of Jaffna. It’s a 12-hour online coding challenge run
             through the <LinkButton link={"http://moodle.org/"} title={"Moodle"} /> , which uses a special tool called   <LinkButton link={"https://vpl.dis.ulpgc.es/"} title={"Virtual Programming Lab (VPL) plug-in"} /> plug-in
@@ -75,7 +75,7 @@ export function AboutSection() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
+            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
             UoJCoders v1.0 was held on March 16th and 17th, 2019. Over 200 teams joined the elimination round,
             and 25 teams made it to the finals.
           </motion.p>
@@ -87,7 +87,7 @@ export function AboutSection() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
+            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
             UoJCoders v2.0 was planned for April 4th and 5th, 2020, but it was canceled because of the COVID-19
             pandemic.
           </motion.p>
@@ -99,7 +99,7 @@ export function AboutSection() {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-justify font-extralight lg:font-light">
+            className="text-white py-4 text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
             UoJCoders v3.0 took place on October 12th and 13th, 2025. More than 100 teams joined the
             elimination round, and 22 teams were selected for the finals. 
           </motion.p>

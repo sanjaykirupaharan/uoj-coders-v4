@@ -18,21 +18,21 @@ const ContactSection = () => {
       <div className="w-11/12 lg:w-1/4 mx-auto mt-10 flex flex-col items-center justify-center gap-y-10">
         <div className="flex flex-col items-center justify-center gap-y-2 text-white">
           <p className="font-semibold tracking-wide text-lg 2xl:text-xl">
-            R. N. Viththagan
+            R. Jananan
           </p>
           <p className="text-sm 2xl:text-base text-zinc-400 font-medium">
             President (CompSoc)
           </p>
-          <p>+94 77 448 0178</p>
+          <p>+94 71 641 6709 </p>
         </div>
         <div className="flex flex-col items-center justify-center gap-y-2 text-white">
           <p className="font-semibold tracking-wide text-lg 2xl:text-xl">
-            V. Sayanishan
+            K. Vithursan
           </p>
           <p className="text-sm 2xl:text-base text-zinc-400 font-medium">
             Secretary (CompSoc)
           </p>
-          <p>+94 77 889 2505</p>
+          <p>+94 77 566 1784 </p>
         </div>
       </div>
       <div className="flex justify-center gap-x-8 pt-10">

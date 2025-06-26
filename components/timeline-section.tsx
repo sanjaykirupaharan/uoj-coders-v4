@@ -85,7 +85,7 @@ const timelineSteps = [
         </h2>
         <p className="text-base lg:text-lg text-slate-200">
           The winners will be awarded, and certificates will be provided to
-          all participants.
+          all participants.
         </p>
       </div>
     ),
