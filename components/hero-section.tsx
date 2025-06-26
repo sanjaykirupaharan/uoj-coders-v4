@@ -6,24 +6,24 @@ import { Vortex } from "./ui/background-vortex";
 type Props = {};
 export const HeroSection = ({ }: Props) => {
   return (
-    <div className="h-[30rem] lg:h-screen w-full bg-black relative flex flex-col items-center justify-center antialiased overflow-hidden">
+    <div className="h-[30rem] lg:h-screen w-full relative flex flex-col items-center justify-center antialiased overflow-hidden">
 
       <Vortex
-        backgroundColor="black"
+        backgroundColor="zinc"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
-        >
+      >
         <Image
           width={600}
           height={600}
-          src={"/uoj-coders-v4-with-moon-bg-rem.png"}
+          src={"/moon-01.png"}
           alt="logo"
           className="w-80 lg:w-96 z-40"
-          />
-      </Vortex>  
+        />
+      </Vortex>
 
       <Image
-        width={1600}
-        height={400}
+        width={2000}
+        height={500}
         src={"/download.png"}
         alt="University of Jafnna B&W"
         className="absolute left-0 bottom-0 translate-y-[40%] w-screen h-auto filter grayscale z-40"

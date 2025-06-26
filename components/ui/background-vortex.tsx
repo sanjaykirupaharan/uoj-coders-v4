@@ -31,13 +31,13 @@ export const Vortex = (props: VortexProps) => {
     const rangeSpeed = props.rangeSpeed || 1.5;
     const baseRadius = props.baseRadius || 1;
     const rangeRadius = props.rangeRadius || 1;
-    const baseHue = props.baseHue || 220;
-    const rangeHue = 5;
+    const baseHue = props.baseHue || 210;
+    const rangeHue = 10;
     const noiseSteps = 3;
     const xOff = 0.0125;
     const yOff = 0.0025;
     const zOff = 0.0025;
-    const backgroundColor = props.backgroundColor || "#000000";
+    const backgroundColor = props.backgroundColor || "#32295c";
     let tick = 0;
     const noise3D = createNoise3D();
     let particleProps = new Float32Array(particlePropsLength);
