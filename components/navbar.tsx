@@ -59,9 +59,10 @@ export const Navbar = ({ }: Props) => {
   ];
 
   return (
-    <div className="relative w-fit">
+    <div className="relative w-screen px-5">
       <div
-        className={`w-fit fixed top-4 inset-x-0 mx-auto border rounded-2xl border-white/[0.2] bg-gray-950 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-50 px-2 lg:px-8 py-3 space-x-4`}>
+        className={`w-fit fixed top-4 inset-x-0 mx-5 ml-auto md:mx-auto border rounded-2xl border-white/[0.2] bg-gray-950 
+        shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-50 px-2 md:px-8 py-3 space-x-4`}>
 
         <div className="w-full flex items-center justify-center bg-red">
           {/* <Link href={"/"}>
@@ -73,7 +74,7 @@ export const Navbar = ({ }: Props) => {
             className="w-24 lg:w-28 2xl:w-36 h-auto"
             />
             </Link> */}
-          <div className="hidden lg:flex w-3/4 items-center justify-center gap-x-6 2xl:gap-x-10">
+          <div className="hidden md:flex w-3/4 md:items-center md:justify-center gap-x-6 2xl:gap-x-10">
             {navItems &&
               navItems.map((navItem: any, idx: number) => (
                 <Link
@@ -87,10 +88,10 @@ export const Navbar = ({ }: Props) => {
               ))}
           </div>
 
-          <div className="lg:hidden">
+          <div className="md:hidden">
             <Sheet>
-              <SheetTrigger className="flex items-center justify-center">
-                <Menu size={28} color="white" className="mr-5" />
+              <SheetTrigger className="flex items-right justify-right">
+                <Menu size={30} color="white" className="mx-1.5" />
               </SheetTrigger>
               <SheetContent side={"right"}>
                 <SheetHeader>

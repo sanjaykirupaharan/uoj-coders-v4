@@ -6,7 +6,7 @@ import { Vortex } from "./ui/background-vortex";
 type Props = {};
 export const HeroSection = ({ }: Props) => {
   return (
-    <div className="h-[30rem] lg:h-screen w-full relative flex flex-col items-center justify-center antialiased overflow-hidden">
+    <div className="h-screen w-full relative flex flex-col items-center justify-center antialiased overflow-hidden">
 
       <Vortex
         backgroundColor="black"
@@ -22,11 +22,11 @@ export const HeroSection = ({ }: Props) => {
       </Vortex>
 
       <Image
-        width={2000}
+        width={4000}
         height={500}
         src={"/download.png"}
         alt="University of Jafnna B&W"
-        className="absolute left-0 bottom-0 translate-y-[40%] w-screen h-auto filter grayscale z-40"
+        className="absolute left-0 bottom-0 translate-y-[40%] w-6xl h-auto filter grayscale z-40 "
       />
     </div>
   );

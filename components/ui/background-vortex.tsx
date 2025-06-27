@@ -21,7 +21,7 @@ export const Vortex = (props: VortexProps) => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const containerRef = useRef(null);
     const animationFrameId = useRef<number>();
-    const particleCount = props.particleCount || 800;
+    const particleCount = props.particleCount || 75;
     const particlePropCount = 9;
     const particlePropsLength = particleCount * particlePropCount;
     const rangeY = props.rangeY || 280;
@@ -29,10 +29,10 @@ export const Vortex = (props: VortexProps) => {
     const rangeTTL = 150;
     const baseSpeed = props.baseSpeed || 0.25;
     const rangeSpeed = props.rangeSpeed || 1.5;
-    const baseRadius = props.baseRadius || 1;
+    const baseRadius = props.baseRadius || 0.5;
     const rangeRadius = props.rangeRadius || 1;
     const baseHue = props.baseHue || 210;
-    const rangeHue = 10;
+    const rangeHue = 5;
     const noiseSteps = 3;
     const xOff = 0.0125;
     const yOff = 0.0025;
