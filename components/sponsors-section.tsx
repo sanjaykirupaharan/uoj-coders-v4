@@ -2,26 +2,53 @@
 
 import { SparklesCore } from "@/components/ui/sparkles";
 import Link from "next/link";
+import { TypewriterEffect } from "./ui/typewriter-effect";
+import { motion } from "framer-motion";
+import { HeroHighlight, Highlight } from "./ui/hero-highlight";
 
 const SponsorsSection = () => {
+  const words = [
+    {
+      text: "Announcing",
+    },
+    {
+      text: "soon",
+    },
+    {
+      text: "....",
+    }
+  ];
+
   return (
     <div className="bg-neutral-900 w-full overflow-hidden" id="sponsors">
-      <div className="h-[70rem] lg:h-[30rem] relative w-full bg-black flex flex-col items-center justify-center gap-y-20 overflow-hidden rounded-md">
+      <div className="h-[40rem] md:h-screen relative w-full bg-black flex flex-col items-center justify-center gap-y-20 overflow-hidden rounded-md">
         <div className="w-full absolute inset-0 ">
-          <SparklesCore
-            id="tsparticlesfullpage"
-            background="transparent"
-            minSize={0.6}
-            maxSize={1.4}
-            particleDensity={100}
-            className="w-full h-full justify-center align-items-center"
-            particleColor="#FFFFFF"
-          />
+          <HeroHighlight>
+            <motion.h1
+              initial={{
+                opacity: 0,
+                y: 20,
+              }}
+              animate={{
+                opacity: 1,
+                y: [20, -5, 0],
+              }}
+              transition={{
+                duration: 0.5,
+                ease: [0.4, 0.0, 0.2, 1],
+              }}
+              className="font-varino underline text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest mb-10"
+            >
+              Sponsors
+              {/* <Highlight className="text-black dark:text-white">
+                copy, of a copy, of a copy.
+                </Highlight> */}
+            </motion.h1>
+            <TypewriterEffect className="font-varino text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest" words={words} />
+          </HeroHighlight>
         </div>
-        <h1 className="font-varino underline text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest">
-          Sponsors
-        </h1>
-        <h2 className="font-varino text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest">Announcing Soon...</h2>
+
+
         {/* <div className="w-full mx-auto">
           <div className="w-full flex flex-col justify-center items-center gap-y-5">
             <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-[#dfdedc] via-[#ecece9] to-[#d3d3d2] text-3xl font-bold tracking-wide">

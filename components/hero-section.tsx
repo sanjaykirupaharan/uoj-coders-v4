@@ -17,7 +17,7 @@ export const HeroSection = ({ }: Props) => {
           height={600}
           src={"/moon-01.png"}
           alt="logo"
-          className="w-80 lg:w-96 z-40"
+          className="w-80 lg:w-96 xl:scale-125 z-40"
         />
       </Vortex>
 
@@ -26,7 +26,7 @@ export const HeroSection = ({ }: Props) => {
         height={500}
         src={"/download.png"}
         alt="University of Jafnna B&W"
-        className="absolute left-0 bottom-0 translate-y-[40%] w-6xl h-auto filter grayscale z-40 "
+        className="absolute left-0 bottom-0 translate-y-[40%] w-6xl h-auto filter grayscale z-40 md:scale-100 scale-125 "
       />
     </div>
   );

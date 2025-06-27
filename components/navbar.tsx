@@ -16,7 +16,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { BackgroundGradient } from "./ui/background-gradient";
 
 type Props = {};
 export const Navbar = ({ }: Props) => {
@@ -61,12 +60,11 @@ export const Navbar = ({ }: Props) => {
   return (
     <div className="relative w-screen px-5">
       <div
-        className={`w-fit fixed top-4 inset-x-0 mx-5 ml-auto md:mx-auto border rounded-2xl border-white/[0.2] bg-gray-950 
-        shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-50 px-2 md:px-8 py-3 space-x-4`}>
+        className={`w-fit fixed top-4 inset-x-0 mx-5 ml-auto md:mx-auto md:mt-3 border rounded-2xl md:rounded-full border-white/[0.2] bg-gray-950 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-50 px-2 md:px-10 py-3 md:py-4 space-x-4`}>
 
         <div className="w-full flex items-center justify-center bg-red">
           {/* <Link href={"/"}>
-            <Image
+            <Image  
             src="/UoJCodersV3.png"
             width={600}
             height={100}
@@ -81,7 +79,7 @@ export const Navbar = ({ }: Props) => {
                   key={`link=${idx}`}
                   href={navItem.link}
                   className={"text-neutral-50 hover:text-neutral-300"}>
-                  <span className="hidden sm:block text-sm 2xl:text-lg">
+                  <span className="hidden sm:block text-sm lg:text-lg">
                     {navItem.name}
                   </span>
                 </Link>
@@ -93,7 +91,7 @@ export const Navbar = ({ }: Props) => {
               <SheetTrigger className="flex items-right justify-right">
                 <Menu size={30} color="white" className="mx-1.5" />
               </SheetTrigger>
-              <SheetContent side={"right"}>
+              <SheetContent side={"right"} className="bg-[#101221]">
                 <SheetHeader>
                   <SheetTitle>Navigation Menu</SheetTitle>
                 </SheetHeader>
