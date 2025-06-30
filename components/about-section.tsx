@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Button } from "./ui/button";
-import { ContainerScroll } from "./ui/container-scroll-animation";
 
 interface LinkButtonProps {
   link: string;
@@ -25,16 +24,13 @@ const LinkButton: React.FC<LinkButtonProps> = ({ link, title }) => {
 
 export function AboutSection() {
   return (
-    <div id="about" className="bg-[#101221]">
-      <ContainerScroll
-        titleComponent={
-          <>
-            <h1 className="mb-5 bg-gradient-to-br from-slate-100 to-slate-400 py-4 bg-clip-text font-varino text-center text-4xl lg:text-5xl font-medium text-transparent">
-              UOJ CODERS <br />
-            </h1>
-          </>
-        }
-      >
+    <div id="about" className="bg-[#191831] h-screen flex items-center justify-center p-5">
+
+      <div className="lg:p-8 w-screen ">
+        <h1 className="mb-5 bg-gradient-to-br from-slate-100 to-slate-400 py-4 bg-clip-text font-varino text-center text-4xl lg:text-6xl font-medium text-transparent">
+          UOJ CODERS <br />
+        </h1>
+
         <div className="py-4 text-white text-sm lg:text-lg 2xl:text-xl text-center font-extralight lg:font-light">
           UoJCoders v4.0 is a 12-hour coding inter-university  competition. It&apos;s organized by the Computer Society and the Department of Computer Science at the University of Jaffna. The goal is to help students improve their coding and problem-solving skills, especially those studying computing. The event, inspired by IEEEXtreme, is open to all undergraduate students in Sri Lanka.
         </div>
@@ -62,7 +58,8 @@ export function AboutSection() {
           UoJCoders v3.0 took place on October 12th and 13th, 2024. More than 100 teams joined the
           elimination round, and 22 teams were selected for the finals.
         </div>
-      </ContainerScroll>
+      </div>
+      {/* </ContainerScroll> */}
     </div>
   );
 }
