@@ -20,7 +20,7 @@ export default function Home() {
       <EventDateTimeSection />
       <AboutSection />
       <TimelineSection />
-      <AwardsSection />
+      {/* <AwardsSection /> */}
       <RulesSection />
       <SponsorsSection />
       <ContactSection />

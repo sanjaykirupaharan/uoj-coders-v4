@@ -5,11 +5,11 @@ import { Timeline } from "./ui/timeline";
 
 export function TimelineSection() {
   return (
-    <div className="bg-[#101221] w-full py-10 content-center" id="timeline">
-      <h1 className="font-varino text-xl lg:text-4xl text-center font-bold text-white mb-16 uppercase tracking-widest">
+    <div className="bg-transparent w-full py-10 content-center" id="timeline">
+      <h1 className="font-varino text-2xl lg:text-4xl text-center font-bold text-white mb-16 uppercase tracking-widest ">
         Timeline
       </h1>
-      <div className="w-11/12 lg:w-3/4 mx-auto">
+      <div className="w-screen lg:w-3/4 mx-auto">
         <Timeline data={timelineSteps} />
       </div>
     </div>
