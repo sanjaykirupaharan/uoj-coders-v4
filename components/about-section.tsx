@@ -24,7 +24,7 @@ const LinkButton: React.FC<LinkButtonProps> = ({ link, title }) => {
 
 export function AboutSection() {
   return (
-    <div id="about" className="bg-[#191831] h-screen flex items-center justify-center p-5">
+    <div id="about" className="bg-[#191831] h-fit md:h-screen flex items-center justify-center p-5">
 
       <div className="lg:p-8 w-screen ">
         <h1 className="mb-5 bg-gradient-to-br from-slate-100 to-slate-400 py-4 bg-clip-text font-varino text-center text-4xl lg:text-6xl font-medium text-transparent">
