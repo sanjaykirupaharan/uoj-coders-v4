@@ -1,11 +1,7 @@
 "use client";
 
-import Image from "next/image";
-import { FloatingNav } from "./ui/floating-navbar";
 import Link from "next/link";
-import { Button } from "./ui/moving-border";
-import { Menu } from "lucide-react";
-import { X } from "lucide-react";
+import { Menu, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import { Separator } from "./ui/separator";
 import {
@@ -18,11 +14,18 @@ import {
 } from "@/components/ui/sheet";
 
 type Props = {};
+
 export const Navbar = ({ }: Props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openBurger = () => {
     setIsOpen(!isOpen);
+  };
+
+  const [expandedItem, setExpandedItem] = useState<string | null>(null);
+
+  const toggleExpand = (name: string) => {
+    setExpandedItem(expandedItem === name ? null : name);
   };
 
   const navItems = [
@@ -55,6 +58,24 @@ export const Navbar = ({ }: Props) => {
       name: "Contact",
       link: "/#contact",
     },
+    {
+      name: "Previous",
+      link: "#", // Placeholder (will be overridden by onClick)
+      subItems: [
+        {
+          name: "UoJ Coders-v1.0",
+          link: "https://society.jfn.ac.lk/compsoc/uojcoders/v1/",
+        },
+        {
+          name: "UoJ Coders-v2.0",
+          link: "https://society.jfn.ac.lk/compsoc/uojcoders/v2/",
+        },
+        {
+          name: "UoJ Coders-v3.0",
+          link: "https://society.jfn.ac.lk/compsoc/uojcoders/v3/",
+        },
+      ],
+    },
   ];
 
   return (
@@ -72,7 +93,7 @@ export const Navbar = ({ }: Props) => {
             className="w-24 lg:w-28 2xl:w-36 h-auto"
             />
             </Link> */}
-          <div className="hidden md:flex w-3/4 md:items-center md:justify-center gap-x-6 2xl:gap-x-10">
+          {/* <div className="hidden md:flex w-3/4 md:items-center md:justify-center gap-x-6 2xl:gap-x-10">
             {navItems &&
               navItems.map((navItem: any, idx: number) => (
                 <Link
@@ -84,7 +105,7 @@ export const Navbar = ({ }: Props) => {
                   </span>
                 </Link>
               ))}
-          </div>
+          </div> */}
 
           <div className="md:hidden">
             <Sheet>
@@ -95,27 +116,58 @@ export const Navbar = ({ }: Props) => {
                 <SheetHeader>
                   <SheetTitle>Navigation Menu</SheetTitle>
                 </SheetHeader>
-                <div
-                  className={
-                    "flex flex-col items-center gap-y-5 w-11/12 mx-auto mt-8 mb-5"
-                  }>
-                  {navItems &&
-                    navItems.map((navItem: any, idx: number) => (
-                      <div
-                        key={`link=${idx}`}
-                        className="w-full h-10 flex flex-col items-center justify-center gap-y-5">
+                <div className="flex flex-col items-center gap-y-5 w-11/12 mx-auto mt-8 mb-5">
+                  {navItems.map((navItem, idx) => (
+                    <div key={`link=${idx}`} className="w-full">
+                      <div className="w-full h-10 flex items-center justify-between">
                         <Link
-                          href={navItem.link}
-                          className={
-                            "text-neutral-50 hover:text-neutral-300 text-base"
-                          }>
+                          href={navItem.subItems ? "#" : navItem.link} // Prevent navigation if subItems exist
+                          onClick={(e) => {
+                            if (navItem.subItems) {
+                              e.preventDefault();
+                              toggleExpand(navItem.name);
+                            }
+                          }}
+                          className="text-neutral-50 hover:text-neutral-300 text-base flex-1"
+                        >
                           {navItem.name}
                         </Link>
-                        {idx !== navItems.length - 1 && (
-                          <Separator className="bg-zinc-700" />
+                        {navItem.subItems && (
+                          <button
+                            onClick={() => toggleExpand(navItem.name)}
+                            className="text-neutral-400 hover:text-neutral-200"
+                          >
+                            {expandedItem === navItem.name ? (
+                              <ChevronUp size={20} />
+                            ) : (
+                              <ChevronDown size={20} />
+                            )}
+                          </button>
                         )}
                       </div>
-                    ))}
+                      {navItem.subItems && expandedItem === navItem.name && (
+                        <div className="pl-4 mt-2 space-y-3">
+                          {navItem.subItems.map((subItem, subIdx) => (
+                            <div key={`sub-link-${subIdx}`}>
+                              <Link
+                                href={subItem.link}
+                                target="_blank"
+                                className="text-neutral-400 hover:text-neutral-200 text-sm block py-1"
+                              >
+                                {subItem.name}
+                              </Link>
+                              {subIdx !== navItem.subItems!.length - 1 && (
+                                <Separator className="bg-zinc-700" />
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                      {idx !== navItems.length - 1 && (
+                        <Separator className="bg-zinc-700" />
+                      )}
+                    </div>
+                  ))}
                 </div>
               </SheetContent>
             </Sheet>

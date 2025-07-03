@@ -5,6 +5,7 @@ import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
+import { NavbarDemo } from "@/components/nav";
 
 const inter = Kanit({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange>
           <Navbar />
+          <NavbarDemo />
           <div className="overflow-x-hidden relative">{children}</div>
           <Footer />
         </ThemeProvider>
