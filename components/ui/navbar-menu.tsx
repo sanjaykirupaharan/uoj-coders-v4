@@ -18,19 +18,21 @@ export const MenuItem = ({
     item,
     children,
     href,
+    className,
 }: {
     setActive: (item: string) => void;
     active: string | null;
     item: string;
     children?: React.ReactNode;
     href: string;
+    className?: string;
 }) => {
     return (
         <a href={href}>
             <div onMouseEnter={() => setActive(item)} className="relative ">
                 <motion.p
                     transition={{ duration: 0.3 }}
-                    className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
+                    className={className}//"cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
                 >
                     {item}
                 </motion.p>
@@ -45,7 +47,7 @@ export const MenuItem = ({
                                 <motion.div
                                     transition={transition}
                                     layoutId="active" // layoutId ensures smooth animation
-                                    className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-md display-none"
+                                    className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-md display-none "
                                 >
                                     <motion.div
                                         layout // layout ensures smooth animation
@@ -73,7 +75,7 @@ export const Menu = ({
     return (
         <nav
             onMouseLeave={() => setActive(null)} // resets the state
-            className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input hidden md:flex justify-center space-x-6 px-8 py-5 text-lg top-3 font-light"
+            className="relative rounded-full border border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input hidden md:flex justify-center space-x-6 px-8 py-5 text-lg top-3 font-light w-fit mx-auto"
         >
             {children}
         </nav>

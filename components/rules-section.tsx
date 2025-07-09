@@ -1,11 +1,13 @@
 "use client";
 
+import Link from "next/link";
 import { Separator } from "./ui/separator";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 const RulesSection = () => {
   return (
     <div
-      className="bg-neutral-950 w-full relative py-12 overflow-hidden"
+      className="bg-neutral-950 w-full relative py-12 overflow-hidden items-center justify-center mx-auto "
       id="guidelines">
       <h1 className="font-varino text-xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest">
         Guidelines
@@ -37,7 +39,27 @@ const RulesSection = () => {
           Department of Computer Science, University of Jaffna.
         </li>
       </ul>
-    </div>
+
+      <CardContainer className="inter-var">
+        <CardBody className="bg-transparent relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-fit h-fit rounded-full px-10 py-4 border">
+          <CardItem
+            translateZ="100"
+            className="text-lg bg-transparent font-bold text-neutral-600 dark:text-violet-500"
+          >
+            <Link href="https://forms.gle/oceN1bu6jMFRddpN8" target="_blank" rel="noopener noreferrer">
+              Register Now
+            </Link>
+          </CardItem>
+        </CardBody>
+      </CardContainer>
+      {/* <Button
+        borderRadius="1.75rem"
+        className="bg-transparent"
+      >
+        Register
+      </Button> */}
+
+    </div >
   );
 };
 

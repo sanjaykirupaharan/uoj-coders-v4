@@ -21,12 +21,10 @@ export const HeroSection = ({ }: Props) => {
           className="w-80 lg:w-96 xl:scale-125 z-40"
         />
 
-
       {/* <Vortex
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
-        
       </Vortex> */}
 
       <Image
