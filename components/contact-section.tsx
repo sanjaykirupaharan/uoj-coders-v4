@@ -10,7 +10,8 @@ const ContactSection = () => {
   return (
     <div
       className="bg-neutral-950 w-full relative py-12 overflow-hidden"
-      id="contact">
+      id="contact"
+    >
       <h1 className="mt-5 font-varino text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest">
         Contact Us
       </h1>

@@ -21,6 +21,7 @@ function Navbar({ className }: { className?: string }) {
                 <MenuItem href="/#" setActive={setActive} active={active} item="Home" />
                 <MenuItem href="/#about" setActive={setActive} active={active} item="About" />
                 <MenuItem href="/#timeline" setActive={setActive} active={active} item="Timeline" />
+                <MenuItem href="/#awards" setActive={setActive} active={active} item="Awards" />
                 <MenuItem href="/#guidelines" setActive={setActive} active={active} item="Guidlines" />
                 <MenuItem href="/#sponsors" setActive={setActive} active={active} item="Sponsors" />
                 <MenuItem href="/#contact" setActive={setActive} active={active} item="Contacts" />

@@ -37,10 +37,13 @@ export const Navbar = ({ }: Props) => {
       name: "About",
       link: "/#about",
     },
-
     {
       name: "Timeline",
       link: "/#timeline",
+    },
+    {
+      name: "Awards",
+      link: "/#awards",
     },
     {
       name: "Guidelines",
