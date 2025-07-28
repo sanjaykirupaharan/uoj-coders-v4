@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  assetPrefix: '/',
+  trailingSlash: true,
   images: {
     remotePatterns: [
       {
@@ -15,16 +17,7 @@ const nextConfig = {
       "api.microlink.io", // Microlink Image Preview
     ],
   },
-  // async generateStaticParams() {
-  //   return {
-  //     "/": { page: "/" },
-  //     "/committee": { page: "/committee" },
-  //     "/404": { page: "/not-found" },
-  //     "/500": { page: "/error" },
-  //     "/_error": { page: "/error" },
-  //     "/_not-found": { page: "/not-found" },
-  //   };
-  // },
+
 };
 
 export default nextConfig;

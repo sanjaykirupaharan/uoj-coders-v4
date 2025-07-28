@@ -1,0 +1,5 @@
+user-agent: *
+Allow: /
+Allow: /committee
+
+Sitemap: https://society.jfn.ac.lk/compsoc/uojcoders/v3/public/sitemap.xml
