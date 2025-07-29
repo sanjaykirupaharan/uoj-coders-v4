@@ -1,6 +1,7 @@
 {
   "name": "uoj_coders",
   "version": "0.1.0",
+  "homepage": "https://society.jfn.ac.lk/compsoc/uojcoders/v4",
   "private": true,
   "type": "module",
   "scripts": {
