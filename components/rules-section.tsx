@@ -40,7 +40,7 @@ const RulesSection = () => {
         </li>
       </ul>
 
-      <CardContainer className="inter-var">
+      {/* <CardContainer className="inter-var">
         <CardBody className="bg-transparent relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-fit h-fit rounded-full px-10 py-4 border">
           <CardItem
             translateZ="100"
@@ -51,7 +51,7 @@ const RulesSection = () => {
             </Link>
           </CardItem>
         </CardBody>
-      </CardContainer>
+      </CardContainer> */}
       {/* <Button
         borderRadius="1.75rem"
         className="bg-transparent"

@@ -79,11 +79,11 @@ export const Navbar = ({ }: Props) => {
         },
       ],
     },
-    {
-      name: "Register !",
-      link: "/#guidelines",
-      className: "text-violet-500",
-    },
+    // {
+    //   name: "Register !",
+    //   link: "/#guidelines",
+    //   className: "text-violet-500",
+    // },
   ];
 
   return (
