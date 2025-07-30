@@ -1,8 +1,8 @@
 "use client";
 
-import Link from "next/link";
+// import Link from "next/link";
 import { Separator } from "./ui/separator";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+// import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 
 const RulesSection = () => {
   return (

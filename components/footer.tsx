@@ -1,6 +1,6 @@
 "use client";
 
-import { AtSign } from "lucide-react";
+// import { AtSign } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {

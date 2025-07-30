@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { Vortex } from "./ui/background-vortex";
+// import { Vortex } from "./ui/background-vortex";
 import { ShootingStars } from "./ui/background-shooting-stars";
-import { Star } from "lucide-react";
+// import { Star } from "lucide-react";
 import { StarsBackground } from "./ui/background-stars";
 
 type Props = {};
