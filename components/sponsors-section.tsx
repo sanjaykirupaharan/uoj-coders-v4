@@ -60,14 +60,12 @@ const SponsorsSection = () => {
         </h1>
         <div className="w-full mx-auto z-10">
           <div className="w-full flex flex-col justify-center items-center gap-y-5">
-            <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-[#dfdedc] via-[#ecece9] to-[#d3d3d2] text-3xl font-bold tracking-wide">
+            <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-[#e8e6e3] via-[#f5f5f5] to-[#d3d1ce] 
+            shadow-[inset_0_0_15px_rgba(0,10,100,0.3)] text-3xl font-bold tracking-wide">
               Platinum Sponsor
             </h2>
             <div className="flex flex-wrap justify-center gap-x-2">
-              <Link
-                href={"https://apptimustech.com/about"}
-                target="_blank"
-                className="cursor-pointer z-30">
+              <Link href={"https://apptimustech.com/about"} target="_blank" className="cursor-pointer z-30">
                 <img
                   src="/sponsors/appt-bg-rem.png"
                   alt="Apptimus"
@@ -76,21 +74,22 @@ const SponsorsSection = () => {
               </Link>
             </div>
           </div>
-          {/* <div className="w-full flex flex-col justify-center items-center gap-y-5 mt-16">
-            <h2 className="bg-clip-text text-transparent bg-gradient-to-b from-[#BF953F] via-[#FCF6BA] to-[#B38728] text-3xl font-bold tracking-wide">
-              Golden Sponsor
+          <div className="w-full flex flex-col justify-center items-center gap-y-5 mt-16">
+            <h2 className="bg-clip-text text-transparent bg-gradient-to-b bg-gradient-to-b from-[#c9c9c9] via-[#e5e5e5] to-[#8a8a8a] 
+            shadow-[inset_0_0_10px_rgba(0,0,0,0.1)] text-3xl font-bold tracking-wide">
+              Silver Sponsor
             </h2>
             <div className="flex flex-wrap justify-center gap-x-4">
-              <Link href={""} target="_blank" className="cursor-pointer z-30">
+              <Link href={"https://unicomsd.com/about-us/"} target="_blank" className="cursor-pointer z-30">
                 <img
-                  src="/sponsors/TF bold.png"
-                  alt="Oyslans"
+                  src="/sponsors/unicom-sd.png"
+                  alt="Unicom SD"
                   className="mt-5 w-72 lg:w-96 h-auto"
                 />
               </Link>
             </div>
           </div>
-          <div className="w-full flex flex-col justify-center items-center gap-y-5 mt-16">
+          {/* <div className="w-full flex flex-col justify-center items-center gap-y-5 mt-16">
             <h2 className="text-3xl font-bold tracking-wide">Event Partners</h2>
             <div className="flex flex-col items-center justify-center gap-y-6">
               <div className="flex flex-col lg:flex-row items-center gap-y-6 lg:gap-x-20 lg:justify-around">
