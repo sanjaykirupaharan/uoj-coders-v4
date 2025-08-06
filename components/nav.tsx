@@ -23,6 +23,7 @@ function Navbar({ className }: { className?: string }) {
                 <MenuItem href="/#timeline" setActive={setActive} active={active} item="Timeline" />
                 <MenuItem href="/#awards" setActive={setActive} active={active} item="Awards" />
                 <MenuItem href="/#guidelines" setActive={setActive} active={active} item="Guidlines" />
+                <MenuItem href="/#finalists" setActive={setActive} active={active} item="Finalists" />
                 <MenuItem href="/#sponsors" setActive={setActive} active={active} item="Sponsors" />
                 <MenuItem href="/#contact" setActive={setActive} active={active} item="Contacts" />
                 <MenuItem href="javascript:void(0);" setActive={setActive} active={active} item="Previous">

@@ -50,6 +50,10 @@ export const Navbar = ({ }: Props) => {
       link: "/#guidelines",
     },
     {
+      name: "Finalists",
+      link: "/#finalists",
+    },
+    {
       name: "Sponsors",
       link: "/#sponsors",
     },
