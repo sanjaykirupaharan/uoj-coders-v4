@@ -107,7 +107,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(#18ccfc, #6344f5, #ae48ff);
+  background-image: linear-gradient(#000000, #6344f5, #000000);
   /* background-color: #18ccfc; */
   border-radius: 50px;
 }
@@ -115,10 +115,10 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background-image: linear-gradient(
-    whitesmoke,
-    #18ccfc,
-    #6344f5,
+    rgb(0, 0, 0),
+    /* #18ccfc,
+    #6344f5, */
     #ae48ff,
-    whitesmoke
+    rgb(0, 0, 0)
   );
 }

@@ -69,7 +69,7 @@ export const StarsBackground: React.FC<StarBackgroundProps> = ({
         const updateStars = () => {
             if (canvasRef.current) {
                 const canvas = canvasRef.current;
-                const ctx = canvas.getContext("2d");
+                const ctx = canvas?.getContext("2d");
                 if (!ctx) return;
 
                 const { width, height } = canvas.getBoundingClientRect();

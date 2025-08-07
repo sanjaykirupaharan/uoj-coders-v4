@@ -67,7 +67,7 @@ const SponsorsSection = () => {
             </h2>
             <div className="flex flex-wrap justify-center gap-x-2">
               <Link href={"https://apptimustech.com/about"} target="_blank" className="cursor-pointer z-30">
-                <img
+                <Image
                   src="/sponsors/appt-bg-rem.png"
                   alt="Apptimus"
                   className="w-72 lg:w-96 h-auto"
