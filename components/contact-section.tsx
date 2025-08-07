@@ -12,7 +12,7 @@ const ContactSection = () => {
       className="bg-neutral-950 w-full relative py-12 overflow-hidden"
       id="contact"
     >
-      <h1 className="mt-5 font-varino text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest">
+      <h1 className="mt-5 font-varino text-2xl lg:text-4xl text-center font-bold bg-gradient-to-b from-[#18ccfc] via-[#6344f5] to-[#ae48ff] bg-clip-text text-transparent uppercase tracking-widest">
         Contact Us
       </h1>
 

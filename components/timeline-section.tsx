@@ -6,7 +6,7 @@ import { Timeline } from "./ui/timeline";
 export function TimelineSection() {
   return (
     <div className="bg-transparent w-full py-10 content-center" id="timeline">
-      <h1 className="font-varino text-2xl lg:text-4xl text-center font-bold text-white mb-16 uppercase tracking-widest ">
+      <h1 className="font-varino text-2xl lg:text-4xl text-center font-bold bg-gradient-to-b from-[#18ccfc] via-[#6344f5] to-[#ae48ff] bg-clip-text text-transparent mb-16 uppercase tracking-widest ">
         Timeline
       </h1>
       <div className="w-screen lg:w-3/4 mx-auto">

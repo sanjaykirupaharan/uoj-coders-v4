@@ -55,7 +55,7 @@ const SponsorsSection = () => {
           {/* </Vortex> */}
         </div>
 
-        <h1 className="font-varino underline text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest z-10">
+        <h1 className="font-varino underline text-2xl lg:text-4xl text-center font-bold bg-gradient-to-b from-[#18ccfc] via-[#6344f5] to-[#ae48ff] bg-clip-text text-transparent uppercase tracking-widest z-10">
           Sponsors
         </h1>
         <div className="w-full mx-auto z-10">

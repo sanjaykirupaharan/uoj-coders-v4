@@ -27,7 +27,7 @@ export function AboutSection() {
     <div id="about" className="bg-transparent h-fit md:h-screen flex items-center justify-center p-5">
 
       <div className="lg:p-8 w-screen ">
-        <h1 className="mb-5 bg-gradient-to-br from-slate-100 to-slate-400 py-4 bg-clip-text font-varino text-center text-4xl lg:text-6xl font-medium text-transparent">
+        <h1 className="mb-5 bg-gradient-to-b from-[#18ccfc] via-[#6344f5] to-[#ae48ff] py-4 bg-clip-text text-transparent font-varino text-center text-4xl lg:text-6xl font-medium ">
           UOJ CODERS <br />
         </h1>
 

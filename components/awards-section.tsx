@@ -9,7 +9,7 @@ export const AwardsSection = ({}: Props) => {
     <div
       className="bg-neutral-950 w-full pt-32 relative overflow-hidden pb-20 2xl:pb-32"
       id="awards">
-      <h1 className="font-varino text-2xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest">
+      <h1 className="font-varino text-2xl lg:text-4xl text-center font-bold bg-gradient-to-b from-[#18ccfc] via-[#6344f5] to-[#ae48ff] bg-clip-text text-transparent uppercase tracking-widest">
         Awards
       </h1>
       <div className="my-10 w-11/12 lg:w-10/12 mx-auto flex flex-col items-center justify-center gap-y-10 lg:flex-row lg:items-end lg:gap-x-16 2xl:gap-x-32 lg:gap-y-0">

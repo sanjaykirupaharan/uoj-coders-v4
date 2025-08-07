@@ -9,7 +9,7 @@ const RulesSection = () => {
     <div
       className="bg-neutral-950 w-full relative py-12 overflow-hidden items-center justify-center mx-auto "
       id="guidelines">
-      <h1 className="font-varino text-xl lg:text-4xl text-center font-bold text-white uppercase tracking-widest">
+      <h1 className="font-varino text-xl lg:text-4xl text-center font-bold bg-gradient-to-b from-[#18ccfc] via-[#6344f5] to-[#ae48ff] uppercase tracking-widest bg-clip-text text-transparent">
         Guidelines
       </h1>
       <ul className="pt-10 w-10/12 lg:w-8/12 h-auto mx-auto 2xl:text-lg flex flex-col gap-y-5 text-white list-disc text-justify font-light">
