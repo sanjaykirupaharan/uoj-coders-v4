@@ -3,6 +3,7 @@
 // import { SparklesCore } from "@/components/ui/sparkles";
 import Link from "next/link";
 import { Vortex } from "./ui/background-vortex";
+import Image from "next/image";
 // import { TypewriterEffect } from "./ui/typewriter-effect";
 // import { motion } from "framer-motion";
 // import { HeroHighlight, Highlight } from "./ui/hero-highlight";
@@ -70,6 +71,8 @@ const SponsorsSection = () => {
                   src="/sponsors/appt-bg-rem.png"
                   alt="Apptimus"
                   className="w-72 lg:w-96 h-auto"
+                  width={200}
+                  height={200}
                 />
               </Link>
             </div>
@@ -81,10 +84,12 @@ const SponsorsSection = () => {
             </h2>
             <div className="flex flex-wrap justify-center gap-x-4">
               <Link href={"https://unicomsd.com/about-us/"} target="_blank" className="cursor-pointer z-30">
-                <img
+                <Image
                   src="/sponsors/unicom-sd.png"
                   alt="Unicom SD"
                   className="mt-5 w-72 lg:w-96 h-auto"
+                  width={200}
+                  height={200}
                 />
               </Link>
             </div>
@@ -97,7 +102,7 @@ const SponsorsSection = () => {
                   href={"https://www.senzmate.com/"}
                   target="_blank"
                   className="cursor-pointer z-30">
-                  <img
+                  <Image
                     src="/sponsors/senzmate.png"
                     alt="Oyslans"
                     className="mt-5 w-72 lg:w-96 h-auto"
@@ -107,7 +112,7 @@ const SponsorsSection = () => {
                   href={"https://unicomsd.com/"}
                   target="_blank"
                   className="cursor-pointer z-30">
-                  <img
+                  <Image
                     src="/sponsors/Uncom-Logo-1.png"
                     alt="Oyslans"
                     className="mt-5 w-72 lg:w-96 h-auto"
@@ -115,7 +120,7 @@ const SponsorsSection = () => {
                 </Link>
               </div>
               <Link href={""} target="_blank" className="cursor-pointer z-30">
-                <img
+                <Image
                   src="/sponsors/logo_english2.png"
                   alt="Oyslans"
                   className="mt-5 w-72 lg:w-96 h-auto"

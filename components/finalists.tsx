@@ -11,6 +11,7 @@ export default function Finalists() {
             className="bg-neutral-950 w-full relative py-12 overflow-hidden mx-auto"
             id="finalists">
             <div className="relative bg-gradient-to-r from-platinum to-silver py-10 overflow-hidden font-varino">
+                
                 <div className="animate-pulse absolute inset-0 bg-[url('/confetti-pattern.svg')] opacity-10">   </div>
                 <h1 className=" text-2xl lg:text-4xl text-center font-bold bg-gradient-to-b from-[#18ccfc] via-[#6344f5] to-[#ae48ff] bg-clip-text text-transparent uppercase">🏆 The Finalists</h1>
                 <p className="text-center mt-2 text-xs lg:text-lg">Witness the showdown on August 23rd 2025!</p>
@@ -24,7 +25,7 @@ export default function Finalists() {
                             <p className="text-gray-300 text-center">{team.university}</p>
                             {/* <div className="mt-3 flex justify-center space-x-2">
                                     <span className="bg-silver px-3 py-1 rounded-full text-sm">🔥 3 Wins</span>
-                                    <span className="bg-platinum px-3 py-1 rounded-full text-sm">🎯 Top 5%</span>
+                                    <span className="bg-platinum px-3 py-1 rounded-full te xt-sm">🎯 Top 5%</span>
                                 </div> */}
                         </div>
                     ))}
