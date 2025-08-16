@@ -23,7 +23,7 @@ export default function Home() {
       <TimelineSection />
       <AwardsSection />
       <RulesSection />
-      {/* <FinalistsSection /> */}
+      <FinalistsSection />
       <SponsorsSection />
       <ContactSection />
     </div>
