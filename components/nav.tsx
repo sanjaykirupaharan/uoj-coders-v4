@@ -32,19 +32,19 @@ function Navbar({ className }: { className?: string }) {
                             title="UoJ Coders - v1.0"
                             href="https://society.jfn.ac.lk/compsoc/uojcoders/v1/"
                             src="https://society.jfn.ac.lk/compsoc/uojcoders/v1/img/logo_bg.png"
-                            description="Prepare for tech interviews like never before."
+                            description="16th and 17th of March 2019 in the Department of Computer Science, University of Jaffna."
                         />
                         <ProductItem
                             title="UoJ Coders - v2.0"
                             href="https://society.jfn.ac.lk/compsoc/uojcoders/v2/"
                             src="https://society.jfn.ac.lk/compsoc/uojcoders/v2/img/logo-main.png"
-                            description="Production ready Tailwind css components for your next project"
+                            description="4th and 5th of April 2020 in the Department of Computer Science, University of Jaffna."
                         />
                         <ProductItem
                             title="UoJ Coders - v3.0"
                             href="https://society.jfn.ac.lk/compsoc/uojcoders/v3/"
                             src="https://society.jfn.ac.lk/compsoc/uojcoders/v3/UoJCodersV3.0_with_moon.png"
-                            description="Never write from scratch again. Go from idea to blog in minutes."
+                            description="October 12th and 13th, 2024, at the Department of Computer Science, University of Jaffna."
                         />
                     </div>
                 </MenuItem>
