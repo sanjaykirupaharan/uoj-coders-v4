@@ -42,9 +42,13 @@ export const Navbar = ({ }: Props) => {
       link: "/#timeline",
     },
     {
-      name: "Awards",
-      link: "/#awards",
+      name: "Winners",
+      link: "/#winners",
     },
+    // {
+    //   name: "Awards",
+    //   link: "/#awards",
+    // },
     {
       name: "Guidelines",
       link: "/#guidelines",
