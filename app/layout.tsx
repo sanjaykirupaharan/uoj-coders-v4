@@ -13,7 +13,7 @@ const inter = Kanit({
 });
 
 export const metadata: Metadata = {
-  title: "UoJCoders v4.0",
+  title: "UoJCoders v4.0 - (2025)",
   description:
     "Coding competition referred as UoJCoders is aimed to enhance the problem-solving skills and programming skills among the undergraduate students in computing and that will provide efficient programmers. The competition is a 12-hours inter-university coding competition that was inspired by IEEEXtreme. The competition is open to all undergraduate students in Sri Lanka, especially for those who follow degrees in the computing discipline.The UoJCoders v4.0 competition is planned to be held on on August 23th and 24th, 2025, at the Department of Computer Science, University of Jaffna.",
 };

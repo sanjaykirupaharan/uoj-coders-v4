@@ -61,10 +61,6 @@ export const Navbar = ({ }: Props) => {
       name: "Sponsors",
       link: "/#sponsors",
     },
-    // {
-    //   name: "Committee",
-    //   link: "/committee",
-    // },
     {
       name: "Contact",
       link: "/#contact",
