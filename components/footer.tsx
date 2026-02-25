@@ -1,6 +1,5 @@
 "use client";
 
-// import { AtSign } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -18,7 +17,7 @@ const Footer = () => {
             </Link>
             , Department of Computer Science, UoJ. All Rights Reserved.
           </p>
-          
+
         </div>
       </div>
     </div>

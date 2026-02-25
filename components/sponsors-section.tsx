@@ -68,7 +68,7 @@ const SponsorsSection = () => {
             <div className="flex flex-wrap justify-center gap-x-2">
               <Link href={"https://apptimustech.com/about"} target="_blank" className="cursor-pointer z-30">
                 <Image
-                  src="/sponsors/appt-bg-rem.png"
+                  src="/sponsors/apptimus.png"
                   alt="Apptimus"
                   className="w-72 lg:w-96 h-auto"
                   width={200}
@@ -94,40 +94,6 @@ const SponsorsSection = () => {
               </Link>
             </div>
           </div>
-          {/* <div className="w-full flex flex-col justify-center items-center gap-y-5 mt-16">
-            <h2 className="text-3xl font-bold tracking-wide">Event Partners</h2>
-            <div className="flex flex-col items-center justify-center gap-y-6">
-              <div className="flex flex-col lg:flex-row items-center gap-y-6 lg:gap-x-20 lg:justify-around">
-                <Link
-                  href={"https://www.senzmate.com/"}
-                  target="_blank"
-                  className="cursor-pointer z-30">
-                  <Image
-                    src="/sponsors/senzmate.png"
-                    alt="Oyslans"
-                    className="mt-5 w-72 lg:w-96 h-auto"
-                  />
-                </Link>
-                <Link
-                  href={"https://unicomsd.com/"}
-                  target="_blank"
-                  className="cursor-pointer z-30">
-                  <Image
-                    src="/sponsors/Uncom-Logo-1.png"
-                    alt="Oyslans"
-                    className="mt-5 w-72 lg:w-96 h-auto"
-                  />
-                </Link>
-              </div>
-              <Link href={""} target="_blank" className="cursor-pointer z-30">
-                <Image
-                  src="/sponsors/logo_english2.png"
-                  alt="Oyslans"
-                  className="mt-5 w-72 lg:w-96 h-auto"
-                />
-              </Link>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>

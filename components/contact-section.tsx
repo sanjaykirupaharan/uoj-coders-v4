@@ -3,7 +3,6 @@
 import { Link2, Linkedin } from "lucide-react";
 import { Facebook } from "lucide-react";
 import { Youtube } from "lucide-react";
-// import { Hash } from "lucide-react";
 import Link from "next/link";
 
 const ContactSection = () => {

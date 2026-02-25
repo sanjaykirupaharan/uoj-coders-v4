@@ -4,7 +4,7 @@
 import Image from "next/image";
 
 type Props = {};
-export const AwardsSection = ({}: Props) => {
+export const AwardsSection = ({ }: Props) => {
   return (
     <div
       className="bg-neutral-950 w-full pt-32 relative overflow-hidden pb-20 2xl:pb-32"

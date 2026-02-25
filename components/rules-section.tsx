@@ -25,8 +25,6 @@ const RulesSection = () => {
           The selection of teams for the final round will be purely based on the
           scores obtained in the elimination round.
         </li>
-        {/* <Separator className="bg-zinc-600" />
-        <li>Minimum 20 teams will be selected for the final round.</li> */}
         <Separator className="bg-zinc-600" />
         <li>
           Team members must solve the problems without any assistance from other

@@ -59,7 +59,6 @@ export function AboutSection() {
           elimination round, and 22 teams were selected for the finals.
         </div>
       </div>
-      {/* </ContainerScroll> */}
     </div>
   );
 }

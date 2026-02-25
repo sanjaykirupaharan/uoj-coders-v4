@@ -10,13 +10,13 @@ export default function FinalistsSection() {
     // Complete list of teams and universities
     const teams = [
         "CS_Cyntax\tInformatics Institute of Technology | IIT Campus",
-        "CS_AlgoRebels\tNORTHERN UNI",
-        "CS_BIJON\tNORTHERN UNI",
-        "CS_Byte_Me\tNORTHERN UNI",
-        "CS_Code_X\tNORTHERN UNI",
-        "CS_CodeTrident\tNORTHERN UNI",
-        "CS_HelloWorld\tNORTHERN UNI",
-        "CS_NorthKnight\tNORTHERN UNI",
+        "CS_AlgoRebels\tNorthern Uni",
+        "CS_BIJON\tNorthern Uni",
+        "CS_Byte_Me\tNorthern Uni",
+        "CS_Code_X\tNorthern Uni",
+        "CS_CodeTrident\tNorthern Uni",
+        "CS_HelloWorld\tNorthern Uni",
+        "CS_NorthKnight\tNorthern Uni",
         "CS_RootCode\tRajarata University of Sri Lanka",
         "CS_Spark\tSouth Eastern University of Sri Lanka",
         "CS_A2S\tSri Lanka Institute of Information Technology",
@@ -71,8 +71,8 @@ export default function FinalistsSection() {
         "CS_Tsc\tUniversity of Moratuwa",
         "CS_AlgoAvengers\tUniversity of Peradeniya",
         "CS_Batz\tUniversity of Peradeniya",
-        "Cs_binarybrains\tUniversity of Peradeniya",
-        "Cs_Byte_force\tUniversity of Peradeniya",
+        "CS_binarybrains\tUniversity of Peradeniya",
+        "CS_Byte_force\tUniversity of Peradeniya",
         "CS_hackophiles\tUniversity of Peradeniya",
         "CS_Nasakarar\tUniversity of Peradeniya",
         "CS_nutcrackers\tUniversity of Peradeniya",
@@ -103,7 +103,7 @@ export default function FinalistsSection() {
                 </h2>
 
                 {/* University Filter Tabs */}
-                <div className="flex flex-wrap justify-center gap-2 mb-8">
+                <div className="flex flex-wrap justify-center gap-2 mb-8 font-light">
                     <button
                         onClick={() => setActiveTab('all')}
                         className={`px-4 py-2 rounded-full ${activeTab === 'all' ?
@@ -124,13 +124,13 @@ export default function FinalistsSection() {
                 </div>
 
                 {/* University Cards Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 font-light ">
                     {universities
                         .filter(uni => activeTab === 'all' || activeTab === uni)
                         .map(university => (
                             <div
                                 key={university}
-                                className="bg-gray-900 rounded-xl overflow-hidden border border-gray-800 hover:border-[#6344f5] transition-all"
+                                className="bg-gray-950 rounded-xl overflow-hidden border border-gray-800 hover:border-[#6344f5] transition-all"
                             >
                                 <div className="p-4 bg-gradient-to-r from-[#3a1d8c] to-[#6e2ac2]">
                                     <h3 className="font-bold text-white">
@@ -145,7 +145,7 @@ export default function FinalistsSection() {
                                         {teamsByUniversity[university].map(team => (
                                             <li key={team} className="flex items-center">
                                                 <span className="w-2 h-2 rounded-full bg-[#18ccfc] mr-2"></span>
-                                                <span className="text-gray-300 font-mono">{team.replace('CS_', '')}</span>
+                                                <span className="text-gray-300 font-light">{team.replace('CS_', '')}</span>
                                             </li>
                                         ))}
                                     </ul>

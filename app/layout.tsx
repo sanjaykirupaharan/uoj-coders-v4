@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import { Kanit } from "next/font/google";
 import "./globals.css";
 
-import { Navbar } from "@/components/navbar";
+import { Navbar } from "@/components/mobile-nav";
 import { ThemeProvider } from "@/components/theme-provider";
 import Footer from "@/components/footer";
-import { NavbarDemo } from "@/components/nav";
+import { NavbarDemo } from "@/components/navbar";
 
 const inter = Kanit({
   subsets: ["latin"],
