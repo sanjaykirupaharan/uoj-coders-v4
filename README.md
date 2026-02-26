@@ -1,44 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏆 UoJ Coders v4
 
-## Getting Started
+A responsive static website built with **Next.js** to host our **Coders** competition's landing page, rules, and event schedule.
 
-First, install the dependencies:
+---
 
-```bash
-npm install
-# or
-yarn add
-```
+## 🚀 Overview
 
-Then, run the development server:
+This repository contains the frontend for the **UoJ Coders**. Since the site is statically generated, it ensures lightning-fast load times and high reliability during peak traffic when participants are checking rules or schedules.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Key Features
+* 📱 **Fully Responsive:** Optimized for desktop, tablets, and mobile devices.
+* 📄 **Team Filter:** Detailed list of teams that participated in the final round with their universities respectively.
+* ⚡ **SEO Optimized:** Built using Next.js for better search engine indexing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠 Tech Stack
 
-To run the static pages (which is located in the out folder):
+* **Framework:** [Next.js](https://nextjs.org/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Deployment:** [Netlify](https://www.netlify.com/)
+* **Icons:** [Lucide React](https://lucide.dev/)
 
-```bash
-npx serve out
-```
+---
 
-## Learn More
+## 📥 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to get a local copy up and running.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+* **Node.js** (v18.0 or higher)
+* **npm** or **yarn**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. **Clone the repository:**
+   ```
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install Dependencies:**
+   ```
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Run the development server:**
+   ```
+   npm run dev
+   ```
+   
